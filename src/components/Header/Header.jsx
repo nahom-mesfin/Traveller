@@ -2,7 +2,7 @@ import React from "react";
 // import { Autocomplete } from "@react-google-maps/api"; // Uncomment this if using
 import SearchIcon from "@mui/icons-material/Search";
 import { AppBar, Toolbar, Typography, InputBase, Box } from "@mui/material";
-import useStyles from "./styles"; // Ensure your styles.js is correct
+import useStyles from "./styles";
 
 const Header = () => {
   const classes = useStyles(); // Get the styles
@@ -28,7 +28,7 @@ const Header = () => {
               <SearchIcon />
             </div>
             <InputBase
-              placeholder="Search ... "
+              placeholder="            Search ... "
               classes={{ root: classes.inputRoot, input: classes.inputInput }} // Fix styles
             />
           </div>
